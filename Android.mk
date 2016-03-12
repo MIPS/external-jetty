@@ -60,6 +60,6 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE := jetty-util
 LOCAL_SRC_FILES := lib/jetty-util-6.1.26.jar
 LOCAL_JACK_FLAGS := -D jack.import.jar.debug-info=false
+LOCAL_UNINSTALLABLE_MODULE := true
 
 include $(BUILD_PREBUILT)
-
